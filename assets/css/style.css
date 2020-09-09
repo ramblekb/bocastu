@@ -1,5 +1,6 @@
 body {
-    background-image: url("../img/PSExpress_2020-09-04_18-11-13_116.png");
+    /* background-image: url("../img/PSExpress_2020-09-04_18-11-13_116.png"); */
+    background-image: url("../img/test.gif");
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -10,5 +11,4 @@ body {
 }
 
 .nav-link {
-    color: red;
-}
+    color: rgb(0, 0, 128)
