@@ -1,14 +1,30 @@
 body {
     /* background-image: url("../img/PSExpress_2020-09-04_18-11-13_116.png"); */
-    background-image: url("../img/test.gif");
+    background-image: url("../img/bocaArt.1.png");
+    height: 100%; 
+    margin: 0;
+    background-position: middle
+;
+
+    background-size: cover;
+
     background-repeat: no-repeat;
-    background-position: center top;
+    padding-top: 2rem;
+    /* background-position: middle; */
+    /* padding-left: 20rem;
+    padding-top: 2rem; */
 }
 
+
+
 #navBar {
-    padding-top: 20px;
+   
+    padding-top: 10px; 
 
 }
 
 .nav-link {
-    color: rgb(0, 0, 128)
+    color: rgb(128, 0, 55);
+    font-style: italic;
+    
+}
