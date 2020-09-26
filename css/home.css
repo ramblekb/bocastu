@@ -30,3 +30,8 @@ body, html {
     
 }
 
+#soon {
+  color: rgb(128, 0, 55);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: center;
+}
