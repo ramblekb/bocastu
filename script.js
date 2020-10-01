@@ -25,11 +25,11 @@ var granimInstance = new Granim({
                 [
                     { color: '#833ab4', pos: .2 },
                     { color: '#fd1d1d', pos: .8 },
-                    { color: '#38ef7d', pos: 1 }
+                    { color: '#38ef7d', pos: .95 }
                 ], [
                     { color: '#40e0d0', pos: 0 },
                     { color: '#ff8c00', pos: .2 },
-                    { color: '#ff0080', pos: .75 }
+                    { color: '#ff0080', pos: .90 }
                 ],
             ]
         }
