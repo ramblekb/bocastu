@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/yco12mz50ka8/public_html/
+    - export DEPLOYPATH=/home/yco12mz50ka8/repositories/bocastu 
     - /bin/cp -R ./ $DEPLOYPATH
