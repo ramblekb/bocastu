@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/yco12mz50ka8/public_html/
- - /bin/cp -r * $DEPLOYPATH
+    - /bin/cp -R ./ $DEPLOYPATH
