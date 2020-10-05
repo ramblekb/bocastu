@@ -1,161 +1,62 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+
+
 
 <head>
   <title>Studio Boca</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--	<link rel="stylesheet" type="text/css" href="/reset.css">-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+  <link rel="stylesheet" href="css/work.css">
 </head>
-<style>
-* {
-  box-sizing: border-box;
-}
+  <body>
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+    <!-- <canvas id="canvas-basic"> -->
 
-.header {
-  text-align: center;
-  padding: 32px;
-}
+  <div class="container">
+    <!-- <canvas id="canvas-basic"> -->
 
-.row {
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 10px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  font-size: 18px;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-</style>
-</head>
-<body>
-    <ul class="nav justify-content-center" id="navBar">
-      <li class="nav-item">
-        <a class="nav-link active" href="./about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./contact.html">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./work.html">Work</a>
-      </li>
-      <div></div>
-    </ul>
-
-<!-- Header -->
-<div class="header" id="myHeader">
-  <h1>Projects</h1>
-  <p>views of our work</p>
-</div>
-
-<!-- Photo Grid -->
-<div class="row"> 
-  <div class="column">
-    <img src="/images/a.1.png" style="width:100%">
-    <img src="/images/b10.png" style="width:100%">
-    <img src="/images/b12.png" style="width:100%">
-    <img src="/images/a3.png" style="width:100%">
-    <img src="/images/bocaArt.1.png" style="width:100%">
-    <img src="/images/test.gif" style="width:100%">
-
+      <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+      </div>
+  <!-- </canvas> -->
   </div>
-  <div class="column">
-    <img src="/images/a3.png" style="width:100%">
-    <img src="/images/b14.png" style="width:100%">
-    <img src="/images/bocaArt.1.png" style="width:100%">
-    <img src="/images/a.1.png" style="width:100%">
-    <img src="/images/b10.png" style="width:100%">
-    <img src="/images/a.5.png" style="width:100%">
-  </div>  
-  <div class="column">
-    <img src="/images/a.7.png" style="width:100%">
-    <img src="/images/larger.png" style="width:100%">
-    <img src="/images/b14.png" style="width:100%">
-    <img src="/images/b11.png" style="width:100%">
-    <img src="/images/a.6.png" style="width:100%">
-    <img src="/images/a.5.png" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/images/a.4.png" style="width:100%">
-    <img src="/images/a.5.png" style="width:100%">
-    <img src="/images/b12.png" style="width:100%">
-    <img src="/images/a.4.png" style="width:100%">
-    <img src="/images/a.2.png" style="width:100%">
-    <img src="/images/a.1.png" style="width:100%">
-  </div>
-</div>
-
-<script>
-// Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
-
-// Declare a loop variable
-var i;
 
 
-// Two images side by side
-function two() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "50%";  // IE10
-    elements[i].style.flex = "50%";
-  }
-}
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
 
-
-
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myHeader");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(this).hide();
+  $(".fa-pause-circle-o").fadeIn();
+  $("#myMusic")[0].play();
+});
 </script>
-
 </body>
+
+
 </html>
