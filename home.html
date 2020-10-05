@@ -11,15 +11,23 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css"> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
   <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
-  <div>
+ 
+
+
+
+
+    <div class="container"> 
+
 
     <!-- <div class="bg"></div> -->
 
-
+    <canvas id="canvas-basic">
   <ul class="nav justify-content-center" id="navBar">
     <li class="nav-item">
       <a class="nav-link active" href="#">About</a>
@@ -36,31 +44,55 @@
     
   </ul>
 </div>
-<!-- <div class="container">
+
+
+
+
+
+
+
+<div class="container">
+  <canvas id="canvas-basic">
+
   <p class="text-center" id="studio">STUDIO</p>
 </div>
 <div class="container">
-  <p class="text-center" id="boca"></p>>BOCA</p>
+  <p class="text-center" id="boca">BOCA</p>
 
 </div>
 <div class="container">
-  <p class="text-center" id="design">INTERIOR DESIGN</p>
+  <p class="text-center" id="interior">INTERIOR DESIGN</p>
 
 </div>
 <div class="container">
   <p class="text-center" id="chatt">CHARLESTON AND CHATTANOOGA</p>
 </div>
+
+
+
+<!-- <div class="container-center">
+  <p class="text-center" id="inq">in touch</p> 
+</div>
+
+<div class="container">
+
+
+  <p class="text-center" id="call">Admin@Boca.Studio</p>
+  
+  <audio allow=”autoplay” autoplay="autoplay" src="./assets/Shine the Light Atmosphere DEMO 2.01.mp3" id="yo" controls="controls"></audio >
+
 </div> -->
 
+ 
 
 
-<div class="container"> 
-<h1 id="content-div">  
-    <p class="text-center" id="soon">COMING SOON!</p>
-  </h1>
-</div> 
+</canvas>
 
-  <div class="bg"></div>
+
+
+</div>
+
+
 
   
   
@@ -77,6 +109,15 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(this).hide();
+      $(".fa-pause-circle-o").fadeIn();
+      $("#myMusic")[0].play();
+    });
+    </script>
 </body>
 
 </html>
