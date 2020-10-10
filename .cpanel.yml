@@ -1,6 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/yco12mz50ka8/repositories/public_html/
-    - /bin/cp home.html $DEPLOYPATH
-        - /bin/cp home.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/yco12mz50ka8/public_html/
+    - /bin/cp -R ./ $DEPLOYPATH
