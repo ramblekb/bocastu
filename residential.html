@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+    <script type="text/javascript" src="/script.js"></script>
+
+    <link rel="stylesheet" href="/css/splash.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://ricostacruz.com/jquery.transit/jquery.transit.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <title>Studio Boca</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: aqua;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    p.date {
+        text-align: right;
+    }
+    
+    p.main {
+        text-align: justify;
+    }
+    
+    .header {
+        text-align: center;
+        padding: 32px;
+        color: Warm Red U;
+        font-family: FuturaTOT Book;
+        opacity: 80%;
+    }
+    
+    .row {
+        display: -ms-flexbox;
+        /* IE 10 */
+        display: flex;
+        -ms-flex-wrap: wrap;
+        /* IE 10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    /* Create two equal columns that sits next to each other */
+    
+    .column {
+        -ms-flex: 50%;
+        /* IE 10 */
+        flex: 50%;
+        padding: 0 4px;
+    }
+    
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+    /* Style the buttons */
+    
+    .btn {
+        border: none;
+        outline: none;
+        padding: 10px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    
+    .btn:hover {
+        background-color: #ddd;
+    }
+    
+    .btn.active {
+        background-color: #666;
+        color: white;
+    }
+</style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="media">
+                <img src="/images/noBack.png" class="align-self-start mr-3" style="width:200px">
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="container">
+
+                <ul class="nav justify-content-center" id="navBar">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/featured.html">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/commonHouse.html">Common House</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/commercial.html">Commercial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/press.html">Press</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="loader"></div>
+    <div class='splash'></div>
+    <div class='frame1'></div>
+    <div class='frame2'></div>
+    <div class='frame3'>
+        If music be the food of love,
+        <span>
+      play on..
+      <span></span>
+        </span>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="/images/a.1.png" style="width:100%">
+            <img src="/images/a.2.png" style="width:100%">
+            <img src="/images/a.3.png" style="width:100%">
+            <img src="/images/a.4.png" style="width:100%">
+            <img src="/images/a.5.png" style="width:100%">
+            <img src="/images/a.6.png" style="width:100%">
+
+        </div>
+        <div class="column">
+            <img src="/images/a.7.png" style="width:100%">
+            <img src="/images/a.8.png" style="width:100%">
+            <img src="/images/a.1.png" style="width:100%">
+            <img src="/images/a.2.png" style="width:100%">
+            <img src="/images/a.3.png" style="width:100%">
+            <img src="/images/a.4.png" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="/images/a.5.png" style="width:100%">
+            <img src="/images/a.6.png" style="width:100%">
+            <img src="/images/a.7.png" style="width:100%">
+            <img src="/images/a.8.png" style="width:100%">
+            <img src="/images/a.1.png" style="width:100%">
+            <img src="/images/a.2.png" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="/images/a.3.png" style="width:100%">
+            <img src="/images/a.4.png" style="width:100%">
+            <img src="/images/a.5.png" style="width:100%">
+            <img src="/images/a.6.png" style="width:100%">
+            <img src="/images/a.7.png" style="width:100%">
+            <img src="/images/a.8.png" style="width:100%">
+        </div>
+    </div>
+
+    <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+
+        // Declare a loop variable
+        var i;
+
+
+        // Two images side by side
+        function two() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "50%"; // IE10
+                elements[i].style.flex = "50%";
+            }
+        }
+
+
+
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myHeader");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+    <script>
+        window.onload = timeout;
+
+        function timeout() {
+            window.setTimeout("redirect()", 5000)
+        }
+
+        function redirect() {
+            window.location = "home.html"
+            return
+        }
+    </script>
+
+    <body onload="timeout()">
+        <img src="/images/a.3.png">
+        <br>
+        <form>
+            <input type="button" value="Home Page" onClick="redirect()">
+        </form>
+
+
+    </body>
+
+</html>

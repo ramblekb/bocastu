@@ -1,0 +1,6 @@
+{
+    "editor.fontFamily": " 'futura_t_otbook'",
+    "css.lint.fontFaceProperties": "ignore",
+    "less.lint.fontFaceProperties": "ignore",
+    "markdown.preview.fontFamily": ""
+}

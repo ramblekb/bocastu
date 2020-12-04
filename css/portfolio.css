@@ -24,9 +24,14 @@ body {
 }
 
 .nav-link {
-    color: rgb(128, 0, 55);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+  font-family : FuturaTOT Book;
+  color: Black;
+  opacity: 80%;
+}
+
+a:hover {
+	text-decoration: none;
+	color: Warm Red U;
 }
 
 #content-div {
