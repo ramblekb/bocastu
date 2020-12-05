@@ -1,9 +1,5 @@
-
 ---
 deployment:
   tasks:
     - export DEPLOYPATH=home/yco12mz50ka8/repositories/bocastu
-    - /bin/cp logo.html $DEPLOYPATH
-    - /bin/cp home.css $DEPLOYPATH
-    - /bin/cp script.js $DEPLOYPATH
- - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
